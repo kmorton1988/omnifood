@@ -54,6 +54,16 @@ section {
     font-size: 90%;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
 /* ----------------------------------------------------------------*/
 /* icons */
 /* ----------------------------------------------------------------*/
@@ -146,14 +156,16 @@ h2:after {
     color: #fff;
 }
 
+
 /* _________________________Header __________________________*/
 /*___________________________________________________________________________*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(12, 9, 46, 0.67)), url(img/hero.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -241,3 +253,69 @@ header {
     transition: transform 0.5s, opacity 0.5s;
     opacity: 1;
 }
+
+/* ----------------------------------------------------------------*/
+/* How it works */
+/* ----------------------------------------------------------------*/
+
+.section-steps {
+    background-color: #dddddd;    
+}
+
+
+.steps-box {
+ 
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+    
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+    
+       
+}
+
+.app-screen {
+    width: 40%;
+    
+}
+
+.works-step {
+    margin-bottom: 50px;
+    
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+    
+}
+
+/* ----------------------------------------------------------------*/
+/* Cities Section */
+/* ----------------------------------------------------------------*/
