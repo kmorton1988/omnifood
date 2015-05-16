@@ -319,3 +319,18 @@ header {
 /* ----------------------------------------------------------------*/
 /* Cities Section */
 /* ----------------------------------------------------------------*/
+
+.cities {
+    line-height: 13px;
+}
+
+.cities i {
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+}
+
+.city-image {
+    width: 100%;
+    height: auto;
+}
