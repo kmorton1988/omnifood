@@ -1,0 +1,35 @@
+/* retina ipads and computers */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        padding: 0 2%;
+        width: 100%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* tablets larger than 787px under 1024px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .steps-box { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .steps-box:last-child { margin-bottom: 60px; }
+    .app-screen { width: 50%; }
+
+}
+
+/* small phones to small tablets under 768px */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Small Phone Screens 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
