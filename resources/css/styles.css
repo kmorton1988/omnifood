@@ -474,6 +474,7 @@ input[type=checkbox] {
 footer {
     padding: 30px;
     background-color: #444;
+    font-size: 80%;
 }
 
 .footer-nav {
@@ -522,7 +523,7 @@ footer p {
 
 .social-links li a:link,
 .social-links li a:active {
-    font-size: 180%;
+    font-size: 150%;
 }
 
 .ion-social-facebook:hover,
